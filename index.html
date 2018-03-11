@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" id="logo" alt="My logo">
+		<h1 id="myName">Sasha Baranova</h1>
+		<h3 id="title">Front-End <span>Girl</span></h3>
+	</header>
+	<main>
+		<section id="description">
+			<h2 class="heading">About me</h2>
+			<p>I'm Sasha. I am a front-end enthusiast and I love making websites. If you need a responsive website that looks good across any devices, I can do that!</p>
+		</section>
+		<!-- A div with a background image for desktop version or large tablets -->
+		<div class="parallax"></div> 
+		<!-- A wrapper div for the flexbox -->
+		<div id="project_container">
+			<section id="projects">
+				<h2 class="heading">Featured Work</h2>
+			</section>
+			<section id="project_1">
+				<picture>
+					<source media="(min-width: 950px)" srcset="images/arcade-1600_large_1x.jpg 1x, images/arcade-1600_large_2x.jpg 2x">
+					<source media="(min-width: 500px)" srcset="images/arcade-800_medium_1x.jpg 1x, images/arcade-800_medium_2x.jpg 2x">
+					<img class="project_img" src="images/arcade-800_medium_1x.jpg" alt="Neon arcade machines">
+				</picture>
+				<h2 class="project_name">Arcade game</h2>
+				<p class="link"><a href="#">https://github.com/sashabaranova/Arcade</a></p>
+			</section>
+			<section id="project_2">
+				<picture>
+					<source media="(min-width: 950px)" srcset="images/resto-1600_large_1x.jpg 1x, images/resto-1600_large_2x.jpg 2x">
+					<source media="(min-width: 500px)" srcset="images/resto-800_medium_1x.jpg 1x, images/resto-800_medium_2x.jpg 2x">
+					<img class="project_img" src="images/resto-800_medium_1x.jpg" alt="Some people in a restaurant">
+				</picture>
+				<h2 class="project_name">Restaurant app</h2>
+				<p class="link"><a href="#">https://github.com/sashabaranova/RestaurantApp</a></p>
+			</section>
+			<section id=project_3>
+				<picture>
+					<source media="(min-width: 950px)" srcset="images/map-1600_large_1x.jpg 1x, images/map-1600_large_2x.jpg 2x">
+					<source media="(min-width: 500px)" srcset="images/map-800_medium_1x.jpg 1x, images/map-800_medium_2x.jpg 2x">
+					<img class="project_img" src="images/map-800_medium_1x.jpg" alt="A vintage-style map of Paris">
+				</picture>
+				<h2 class="project_name">Neighborhood map</h2>
+				<p class="link"><a href="#">https://github.com/sashabaranova/NeighbourhoodMap</a></p>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<h2 class="heading">Contact</h2>
+		<a href="#"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></a>
+		<a href="#"><i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+		<a href="#"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
+		<a href="#"><i class="fab fa-codepen fa-3x" aria-hidden="true"></i></a>
+	</footer>
+</body>
+</html>
+

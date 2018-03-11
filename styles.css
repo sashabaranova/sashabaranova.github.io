@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: 90% 'Lato', sans-serif;
+    color: #f2ebe1;
+    background: #3f3d55;
+}
+
+html, body, main {
+	width: 100%;
+}
+
+span, .project_name, i {
+	color: #a9bf78;
+}
+
+header, main {
+    border-bottom: 2px solid #a9bf7854;
+    margin-bottom: 1em;
+}
+
+section {
+	padding: 0 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	max-width: 100%;
+}
+
+#logo {
+	margin: -20px auto -50px;
+	display: block;
+}
+
+.parallax {
+	width: 60%;
+	height: 400px;
+	background-attachment: fixed;
+	background-position: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 50px 5% 100px auto;
+	background-image: url(images/web.jpg);
+	/* to hide the div for the mobile/small tablet version */
+	display: none; 
+}
+
+#description {
+    width: 90%;
+    padding: 2em 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#description p {
+	color: #a9bf78;
+    font-size: 150%;
+}
+
+#myName, #title, .project_name {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#title {
+	margin-top: -10px;
+}
+
+.heading {
+	text-align: center;
+	padding-bottom: 0.5em;
+	font-size: 200%;
+}
+
+.project_img {
+	width: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: 2px 2px 7px 0px rgba(36,34,49,1);
+	-moz-box-shadow: 2px 2px 7px 0px rgba(36,34,49,1);
+	box-shadow: 2px 2px 7px 0px rgba(36,34,49,1);
+}
+
+.project_name {
+	padding: 10px;
+}
+
+.link {
+	text-align: center;
+	padding-bottom: 30px;
+	word-break: break-all;
+	margin-top: -20px;
+}
+
+footer {
+	text-align: center;
+}
+
+i {
+	margin: 0 15px 30px;
+    text-shadow: 1px 1px 2px #242231;
+}
+
