@@ -7,15 +7,20 @@ body {
     background: #3f3d55;
 }
 
-html, body, main {
+html,
+body,
+main {
 	width: 100%;
 }
 
-span, .project_name, i {
+span,
+i,
+.project-name {
 	color: #a9bf78;
 }
 
-header, main {
+header,
+main {
     border-bottom: 2px solid #a9bf7854;
     margin-bottom: 1em;
 }
@@ -33,12 +38,27 @@ img {
 	max-width: 100%;
 }
 
+/*HEADER*/
+
 #logo {
 	margin: -20px auto -50px;
 	display: block;
 }
 
-.parallax {
+#my-name,
+#title,
+.project-name {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#title {
+	margin-top: -10px;
+}
+
+/*MAIN*/
+
+#parallax {
 	width: 60%;
 	height: 400px;
 	background-attachment: fixed;
@@ -63,22 +83,13 @@ img {
     font-size: 150%;
 }
 
-#myName, #title, .project_name {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-#title {
-	margin-top: -10px;
-}
-
 .heading {
 	text-align: center;
 	padding-bottom: 0.5em;
 	font-size: 200%;
 }
 
-.project_img {
+.project-img {
 	width: 100%;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
@@ -89,7 +100,7 @@ img {
 	box-shadow: 2px 2px 7px 0px rgba(36,34,49,1);
 }
 
-.project_name {
+.project-name {
 	padding: 10px;
 }
 
@@ -100,6 +111,8 @@ img {
 	margin-top: -20px;
 }
 
+/*FOOTER*/
+
 footer {
 	text-align: center;
 }
@@ -108,4 +121,6 @@ i {
 	margin: 0 15px 30px;
     text-shadow: 1px 1px 2px #242231;
 }
+
+/* TODO: add hover effects */
 
